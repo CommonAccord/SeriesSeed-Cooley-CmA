@@ -16,6 +16,8 @@ KeyHolder.3.=[G/U/id/quentin_quade.md]
 
 EffectiveDate.YMD=2017-06-21
 
+ClosingDate.YMD=2017-07-06
+
 Law.=[G/U/at/US/CA/San_Francisco/San_Francisco/Geo]
 
 StockPlan.Title,Date.cl=Acme Employee Stock Plan
