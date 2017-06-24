@@ -28,9 +28,9 @@ Law.=[G/U/at/US/CA/San_Francisco/San_Francisco/Geo]
 
 StockPlan.Title,Date.cl=Acme Employee Stock Plan
 
-CommonBoardMemberCount.#=7
+CommonBoardMemberCount.#=3
 
-MutualConsentBoardMemberCount.#=5
+MutualConsentBoardMemberCount.#=2
 
 SeriesSeedBoardMemberCount.#=2
 
@@ -60,6 +60,10 @@ Seed.1.Price.Cash.$=$200,000
 
 Seed.1.Price.$=$200,000
 
+Seed.1.Questionnaire.IndividualQualifies.ByIncome.?=YES
+
+Seed.1.Questionnaire.By.Sec={Seed.1.US.Contract.By.Sec}
+
 Seed.2.Share.Quantity.#=10,000
 
 Seed.2.Price.Debt.$=$50,000
@@ -82,7 +86,7 @@ KeyHolder.2.Share.Quantity.#=200,000
 
 KeyHolder.3.Share.Quantity.#=100,000
 
-Seed.Authorized.Quantity.#=
+Seed.Authorized.Quantity.#=2,000,000
 
 Seed.Quantity.#=50,000
 
@@ -90,11 +94,27 @@ Seed.Share.Price.$=$10.00
 
 Common.ReservedForSeedConverstion.#=50,000
 
+Share.Authorized.Quantity.#=3,000,000
+
+Seed.Directors.Quantity.#=2
+
+Share.Authorized.Quantity.#=5,000,000
+
+Common.Authorized.Quantity.#=3,000,000
+
+Common.Par.$=$0.10
+
+Preferred.Authorized.Quantity.#=2,000,000
+
+Preferred.Par.$=$0.10
+
 KeyHolder.By.Sec={KeyHolder.1.US.Contract.By.Sec}<br>{KeyHolder.2.US.Contract.By.Sec}<br>{KeyHolder.3.US.Contract.By.Sec}
 
 Seed.By.Sec={Seed.1.US.Contract.By.Sec}<br>{Seed.2.US.Contract.By.Sec}<br>{Seed.3.US.Contract.By.Sec}
 
 Director.By.Sec={Director.1.US.Contract.By.Sec}<br>{Director.2.US.Contract.By.Sec}<br>{Director.3.US.Contract.By.Sec}
+
+CertificateOfIncorporation.By.Sec={KeyHolder.2.US.Contract.By.Sec}
 
 Company.Handle=Company
 
