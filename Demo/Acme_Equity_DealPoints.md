@@ -14,6 +14,12 @@ KeyHolder.2.=[G/U/id/geraldine_graber.md]
 
 KeyHolder.3.=[G/U/id/quentin_quade.md]
 
+Director.1.=[G/U/id/barbara_oreilly.md]
+
+Director.2.=[G/U/id/geraldine_graber.md]
+
+Director.3.=[G/U/id/solomon_shirley.md]
+
 EffectiveDate.YMD=2017-06-21
 
 ClosingDate.YMD=2017-07-06
@@ -76,24 +82,40 @@ KeyHolder.2.Share.Quantity.#=200,000
 
 KeyHolder.3.Share.Quantity.#=100,000
 
+Seed.Authorized.Quantity.#=
+
+Seed.Quantity.#=50,000
+
+Seed.Share.Price.$=$10.00
+
+Common.ReservedForSeedConverstion.#=50,000
+
 KeyHolder.By.Sec={KeyHolder.1.US.Contract.By.Sec}<br>{KeyHolder.2.US.Contract.By.Sec}<br>{KeyHolder.3.US.Contract.By.Sec}
 
 Seed.By.Sec={Seed.1.US.Contract.By.Sec}<br>{Seed.2.US.Contract.By.Sec}<br>{Seed.3.US.Contract.By.Sec}
 
+Director.By.Sec={Director.1.US.Contract.By.Sec}<br>{Director.2.US.Contract.By.Sec}<br>{Director.3.US.Contract.By.Sec}
+
 Company.Handle=Company
-
-Seed.1.Handle=Seed Investor 1
-
-Seed.2.Handle=Seed Investor 2
-
-Seed.3.Handle=Seed Investor 3
-
-KeyHolder.1.Handle=Key Holder 1
-
-KeyHolder.2.Handle=Key Holder 2
-
-KeyHolder.3.Handle=Key Holder 3  
 
 Sign.YMD=________________________  
 
 xSignature=________________________
+
+Seed.1.Handle=Ang
+
+Seed.2.Handle=Altima
+
+Seed.3.Handle=Andrews
+
+KeyHolder.1.Handle=O'Reilly
+
+KeyHolder.2.Handle=Graber
+
+KeyHolder.3.Handle=Quade
+
+Director.1.Handle=O'Reilly
+
+Director.2.Handle=Graber
+
+Director.3.Handle=Shirley
