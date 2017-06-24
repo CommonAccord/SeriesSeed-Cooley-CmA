@@ -4,15 +4,23 @@
 
 //=Then the set of forms:
 
+TermSheet.=[G/SeriesSeed-Cooley-CmA/equity/Term_Sheet/0.md]
+
 PurchaseAgreement.=[G/SeriesSeed-Cooley-CmA/equity/Preferred_Stock_Investment_Agreement/Form/0.md]
 
 BoardConsent.=[G/SeriesSeed-Cooley-CmA/equity/Board_Consent/0.md]
 
 Seed.1.Questionnaire.=[G/SeriesSeed-Cooley-CmA/equity/Investor_Questionnaire/0.md]
 
-CertificateOfIncorporation.=[G/SeriesSeed-Cooley-CmA/equity/Restated_Certificate_of_Incorporation/0.md]
+BoardMinutes.=[G/SeriesSeed-Cooley-CmA/equity/Restated_Certificate/Board_Minutes/0.md]
 
-//=Then select what document or documents (or Section of a document) you want to see:
+RestatedCertificate.=[G/SeriesSeed-Cooley-CmA/equity/Restated_Certificate/Certificate/0.md]
+
+StockholderConsent.=[G/SeriesSeed-Cooley-CmA/equity/Stockholder_Consent/0.md]
+
+//=Then select what document or documents (or Section of a document) you want to see.  Remove the / in front of the "Model.Root" that you want (if there is more than one, the first clean "Model.Root" is taken, as always):
+
+/Model.Root={TermSheet.Sec}  
 
 /Model.Root={PurchaseAgreement.Sec}  
 
@@ -20,4 +28,8 @@ CertificateOfIncorporation.=[G/SeriesSeed-Cooley-CmA/equity/Restated_Certificate
   
 /Model.Root={Seed.1.Questionnaire.Sec}
 
-Model.Root={CertificateOfIncorporation.Sec}
+/Model.Root={BoardMinutes.Sec}  
+
+/Model.Root={RestatedCertificate.Sec}  
+
+Model.Root={StockholderConsent.Sec}
