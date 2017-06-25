@@ -4,6 +4,8 @@
 
 Company.=[G/U/id/acme_incorporated.md]
 
+President.=[G/U/id/barbara_oreilly.md]
+
 Seed.1.=[G/U/id/andrea_ang.md]
 
 Seed.2.=[G/U/id/abigail_altima.md]
@@ -53,6 +55,8 @@ LeadInvestor.By.Sec={Seed.1.US.Contract.By.Sec}
 Convert.Share.Quantity.#=0
 
 Purchaser.All.cl={Seed.1.Name.Full}, {Seed.2.Name.Full} and {Seed.3.Name.Full}
+
+Note.InterestRate.%=8%
 
 PremoneyValuation.$=$7,000,000
 
@@ -141,6 +145,8 @@ Preferred.Par.$=$0.10
 Company.OriginalIncorporationDate.YMD=2016-02-02
 
 Company.Original.Name.Full={Company.Name.Full}
+
+Company.By.Sec={Company.US.Contract.By.Sec}
 
 KeyHolder.By.Sec={KeyHolder.1.US.Contract.By.Sec}<br>{KeyHolder.2.US.Contract.By.Sec}<br>{KeyHolder.3.US.Contract.By.Sec}
 
