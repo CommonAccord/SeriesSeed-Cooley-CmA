@@ -1,6 +1,6 @@
 //=First the deal specifications:
  
-=[G/SeriesSeed-Cooley-CmA/Demo/Acme_Equity_DealPoints.md]
+=[G/SeriesSeed-Cooley-CmA/Demo/Acme_DealPoints.md]
 
 //=Then the set of forms:
 

@@ -58,7 +58,7 @@ Purchaser.All.cl={Seed.1.Name.Full}, {Seed.2.Name.Full} and {Seed.3.Name.Full}
 
 Note.InterestRate.%=8%
 
-PremoneyValuation.$=$7,000,000
+PremoneyValuation.$=$3,000,000
 
 OptionPool.%=10%
 
@@ -126,11 +126,54 @@ Seed.Quantity.#=50,000
 
 Seed.Share.Price.$=$10.00
 
-Common.ReservedForSeedConverstion.#=50,000
+Common.ReservedForSeedConversion.#=50,000
 
 Share.Authorized.Quantity.#=3,000,000
 
 Seed.Directors.Quantity.#=2
+
+
+//=For a Note issuance:
+
+Note.MaturityDate.cl=2019-06-25
+
+Note.InterestRate.Annum.%=8%
+
+EquityEvent.ThresholdProceeds.$=$1,000,000
+
+Convert.PriceDiscount.%=10%
+
+OptionalConversion.Deciders.cl={Seed.1.Name.Full} and {Seed.2.Name.Full}
+
+Note.Series.#=One
+
+Note.Date.YMD=2017-06-22
+
+Note.Principal.Sum.#={Seed.1.Price.Cash.$}
+
+Note.MaturityDate.YMD=2019-06-25
+
+Note.Total.Principal.$={Seed.Round.Total.$}
+
+Convert.Valuation.$=$7,000,000
+
+RepaymentPremium.%=20%
+
+PromissoryNote.Interest.cl={PromissoryNote.Interest.Compounding.cl}
+
+PromissoryNote.Period.cl={PromissoryNote.Period.BeforeMaturityDate.cl}
+
+PromissoryNote.Price.cl={PromissoryNote.Price.QualifiedOrCap.cl}
+
+PromissoryNote.AsOf.cl={PromissoryNote.AsOf.QualifiedFinancing.cl}
+
+PromissoryNote.Maturity.Trigger.cl={PromissoryNote.Maturity.Trigger.Automatic.cl}
+
+PromissoryNote.Note.ConvertTo.cl={PromissoryNote.Note.ConvertTo.Common.cl}
+
+PromissoryNote.Control.ValueAsOf.cl={PromissoryNote.Control.ValueAsOf.TimeOfChange.cl}
+
+//=Company Existing:
 
 Share.Authorized.Quantity.#=5,000,000
 
