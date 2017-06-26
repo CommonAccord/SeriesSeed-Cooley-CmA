@@ -28,6 +28,6 @@ Def.=[G/SeriesSeed-Cooley-CmA/Sec/DefinedTerm-Inline/0.md]
   
 /Model.Root={Seed.1.Questionnaire.Sec}
 
-/Model.Root={PromissoryNote.Sec}
+Model.Root={PromissoryNote.Sec}
   
 Model.Root=<ol><li>{TermSheet.Sec}<hr><hr><li>{PromissoryNote.Sec}<hr><hr><li>{BoardConsent.Sec}<hr><hr><li>{Seed.1.Questionnaire.Sec}</ol>

@@ -159,6 +159,8 @@ Convert.Valuation.$=$7,000,000
 
 RepaymentPremium.%=20%
 
+PromissoryNote.Convert.EquityFinancing.PriceRatio.%=0.80
+
 PromissoryNote.Interest.cl={PromissoryNote.Interest.Compounding.cl}
 
 PromissoryNote.Period.cl={PromissoryNote.Period.BeforeMaturityDate.cl}
@@ -168,6 +170,13 @@ PromissoryNote.Price.cl={PromissoryNote.Price.QualifiedOrCap.cl}
 PromissoryNote.AsOf.cl={PromissoryNote.AsOf.QualifiedFinancing.cl}
 
 PromissoryNote.Maturity.Trigger.cl={PromissoryNote.Maturity.Trigger.Automatic.cl}
+PromissoryNote.Convert.EquityFinancing.While.cl={PromissoryNote.Convert.EquityFinancing.While.cl/Maturity}
+
+PromissoryNote.Convert.EquityFinancing.Price.cl={PromissoryNote.Convert.EquityFinancing.Price.cl/Lesser}
+
+PromissoryNote.Convert.EquityFinancing.Price.cl/Cash={PromissoryNote.Convert.EquityFinancing.Price.cl/Cash/Discounted}
+
+PromissoryNote.Convert.EquityFinancing.OutstandingWhen.cl={PromissoryNote.Convert.EquityFinancing.OutstandingWhen.cl/Late}
 
 PromissoryNote.Note.ConvertTo.cl={PromissoryNote.Note.ConvertTo.Common.cl}
 
