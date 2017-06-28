@@ -159,7 +159,7 @@ Convert.Valuation.$=$7,000,000
 
 RepaymentPremium.%=20%
 
-PromissoryNote.Convert.EquityFinancing.PriceRatio.%=0.80
+PromissoryNote.Convert.QualifiedFinancing.PriceRatio.%=0.80
 
 PromissoryNote.Interest.cl={PromissoryNote.Interest.Compounding.cl}
 
@@ -167,20 +167,26 @@ PromissoryNote.Period.cl={PromissoryNote.Period.BeforeMaturityDate.cl}
 
 PromissoryNote.Price.cl={PromissoryNote.Price.QualifiedOrCap.cl}
 
-PromissoryNote.AsOf.cl={PromissoryNote.AsOf.QualifiedFinancing.cl}
+PromissoryNote.Convert.Maturity.AsOf.cl={PromissoryNote.Convert.Maturity.AsOf.cl/NoteDate}
 
-PromissoryNote.Maturity.Trigger.cl={PromissoryNote.Maturity.Trigger.Automatic.cl}
-PromissoryNote.Convert.EquityFinancing.While.cl={PromissoryNote.Convert.EquityFinancing.While.cl/Maturity}
+PromissoryNote.Convert.Maturity.Trigger.cl={PromissoryNote.Convert.Maturity.Trigger.Automatic.cl}
 
-PromissoryNote.Convert.EquityFinancing.Price.cl={PromissoryNote.Convert.EquityFinancing.Price.cl/Lesser}
+PromissoryNote.Convert.QualifiedFinancing.While.cl={PromissoryNote.Convert.QualifiedFinancing.While.cl/Maturity}
 
-PromissoryNote.Convert.EquityFinancing.Price.cl/Cash={PromissoryNote.Convert.EquityFinancing.Price.cl/Cash/Discounted}
+PromissoryNote.Convert.QualifiedFinancing.Price.cl={PromissoryNote.Convert.QualifiedFinancing.Price.cl/Lesser}
 
-PromissoryNote.Convert.EquityFinancing.OutstandingWhen.cl={PromissoryNote.Convert.EquityFinancing.OutstandingWhen.cl/Late}
+PromissoryNote.Convert.QualifiedFinancing.Price.cl/Cash={PromissoryNote.Convert.QualifiedFinancing.Price.cl/Cash/Discounted}
 
-PromissoryNote.Note.ConvertTo.cl={PromissoryNote.Note.ConvertTo.Common.cl}
+PromissoryNote.Convert.QualifiedFinancing.OutstandingWhen.cl={PromissoryNote.Convert.QualifiedFinancing.OutstandingWhen.cl/Late}
 
-PromissoryNote.Control.ValueAsOf.cl={PromissoryNote.Control.ValueAsOf.TimeOfChange.cl}
+PromissoryNote.Convert.Non-QualifiedFinancing.OptionDeciders.cl={PromissoryNote.Convert.Non-QualifiedFinancing.OptionDeciders.cl/EachHolder}
+
+PromissoryNote.Convert.Non-QualifiedFinancing.While.cl={PromissoryNote.Convert.Non-QualifiedFinancing.While.cl/Maturity}
+
+PromissoryNote.Convert.Maturity.ConvertTo.cl={PromissoryNote.Convert.Maturity.ConvertTo.Common.cl}
+
+PromissoryNote.Convert.ChangeOfControl.ValueAsOf.cl={PromissoryNote.Convert.ChangeOfControl.ValueAsOf.cl/TimeOfChange}
+
 
 //=Company Existing:
 
